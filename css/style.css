@@ -6,11 +6,15 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 80px;
 }
 
 header nav ul {
   list-style: none;
-
   display: flex;
 }
 
@@ -22,7 +26,7 @@ header a {
   text-decoration: none;
 }
 
-#cosa {
+#gorputza {
   width: 100%;
 }
 
@@ -35,7 +39,14 @@ footer {
   align-items: center;
 }
 
+.rrss {
+  width: 3rem;
+}
+
 @media (orientation: landscape) {
+  header img {
+    height: 150px;
+  }
   body {
     flex-direction: row;
   }
