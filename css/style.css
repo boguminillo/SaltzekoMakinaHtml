@@ -1,9 +1,13 @@
 body {
+  margin: 0;
+  /* FLEX */
   display: flex;
   flex-direction: column;
 }
 
 header {
+  background-color: #0AB4FC;
+  /* FLEX */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +19,7 @@ header img {
 
 header nav ul {
   list-style: none;
+  /* FLEX */
   display: flex;
 }
 
@@ -32,7 +37,8 @@ header a {
 
 footer {
   text-align: center;
-  /* Flex */
+  background-color: #088FC9;
+  /* FLEX */
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
@@ -48,17 +54,20 @@ footer {
     height: 150px;
   }
   body {
+    /* FLEX */
     flex-direction: row;
   }
   header {
+    /* FLEX */
     flex-direction: column;
   }
   header nav ul {
+    /* FLEX */
     flex-direction: column;
   }
   footer {
     text-align: right;
-    /* Flex */
+    /* FLEX */
     flex-direction: row;
     align-items: flex-end;
   }
