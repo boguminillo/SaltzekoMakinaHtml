@@ -44,14 +44,16 @@ section h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .produkto {
-  width: 33%;
-}
-
-.produkto img {
-  width: 100%;
+  width: 28%;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
 }
 
 footer {
@@ -79,6 +81,7 @@ footer {
   header {
     /* FLEX */
     flex-direction: column;
+    justify-content: flex-start;
   }
   header nav ul {
     /* FLEX */
