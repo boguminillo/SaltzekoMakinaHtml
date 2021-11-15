@@ -35,6 +35,25 @@ header a {
   width: 100%;
 }
 
+section h2 {
+  text-align: center;
+}
+
+.produktuak {
+  /* FLEX */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produkto {
+  width: 33%;
+}
+
+.produkto img {
+  width: 100%;
+}
+
 footer {
   text-align: center;
   background-color: #088FC9;
