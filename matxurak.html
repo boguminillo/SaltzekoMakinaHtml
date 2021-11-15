@@ -34,7 +34,33 @@
 
   <div id="egitura">
     <section>
+      <form action="#" method="post" name="matxurak">
 
+        <label for="iz_abiz">Izen-abizena</label>
+        <input type="text" name="iz_Abiz" id="iz_Abiz" placeholder="Izen-abizena" required maxlength="40">
+
+        <label for="kod">Kodigoa</label>
+        <input type="text" name="kod" id="kod" placeholder="000000000" required maxlength="9">
+
+        <label for="makina">Makina</label>
+        <input type="text" name="makina" id="makina" list="makina_list">
+        <datalist id="makina_list">
+          <option>Osasungarria</option>
+          <option>Edariak</option>
+          <option>Pika-pika</option>
+          <option>Kafea</option>
+        </datalist>
+
+        <label for="data">Data:</label>
+        <input type="date" id="date" name="data">
+
+        <p>Funtzinatzen jarraitzen du?<br>
+          <label for="funtzinamendua"></label><br>
+          <input type="checkbox" value="funtzinamendua" name="funtzinamendua" id="funtzinamendua">
+      </p>
+
+
+      </form>
     </section>
     <footer>
       <div>
