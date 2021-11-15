@@ -21,6 +21,7 @@ header nav ul {
   list-style: none;
   /* FLEX */
   display: flex;
+  flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -37,10 +38,12 @@ header a {
 
 section{
   background-color: #56CBFD;
+  padding-top: 2rem;
 }
 
 section h2 {
   text-align: center;
+  margin-top: 0;
 }
 
 .produktuak {
@@ -53,11 +56,17 @@ section h2 {
 
 .produkto {
   width: 28%;
+  min-width: 300px;
   text-align: center;
   padding: 1em;
   margin: 1em;
   border: 1px solid black;
   border-radius: 0.5em;
+}
+
+.produkto img {
+  width: 100%;
+  max-width: 250px;
 }
 
 form {
