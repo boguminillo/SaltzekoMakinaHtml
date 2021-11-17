@@ -33,6 +33,7 @@ header nav {
   /* FLEX */
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 header nav a {
@@ -44,9 +45,13 @@ header nav a {
 }
 
 header nav a:hover {
-  text-decoration: none;
   color: #000000;
   background-color: #56CBFD;
+}
+
+.autatuta {
+  color: #000000;
+  background-color: #2A647D;
 }
 
 #egitura {
