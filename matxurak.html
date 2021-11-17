@@ -39,35 +39,62 @@
     <section>
       <form action="#" method="post" name="matxurak">
 
-        <label for="iz_abiz">Izen-abizena</label>
-        <input type="text" name="iz_Abiz" id="iz_Abiz" placeholder="Izen-abizena" required maxlength="40">
+        <fieldset>
+          <legend>Matxurak</legend>
 
-        <label for="kod">Kodigoa</label>
-        <input type="text" name="kod" id="kod" placeholder="000000000" required maxlength="9">
+          <div class="formuLerro">
+            <label for="iz_abiz">Izen-abizena</label>
+            <input type="text" name="iz_Abiz" id="iz_Abiz" placeholder="Izen-abizena" required maxlength="40">
+          </div>
 
-        <label for="makina">Makina</label>
-        <input type="text" name="makina" id="makina" list="makina_list">
-        <datalist id="makina_list">
-          <option>Osasungarria</option>
-          <option>Edariak</option>
-          <option>Pika-pika</option>
-          <option>Kafea</option>
-        </datalist>
+          <div class="formuLerro">
+            <label for="kod">Kodigoa</label>
+            <input type="number" name="kod" id="kod" placeholder="000000000" required maxlength="9" minlength="9" autocomplete="on">
+          </div>
 
-        <label for="data">Data:</label>
-        <input type="date" id="date" name="data">
+          <div class="formuLerro">
+            <label for="makina">Makina</label>
+            <select name="makina" id="makina" required>
+              <option value="" selected disabled hidden>Aukeratu makina bat</option>
+              <option value="1">Osasungarria</option>
+              <option value="2">Edariak</option>
+              <option value="3">Pika-pika</option>
+              <option value="4">Kafea</option>
+            </select>
+          </div>
 
-        <p>Funtzinatzen jarraitzen du?
-          <label for="funtzinamendua"></label>
-          <input type="checkbox" value="funtzinamendua" name="funtzinamendua" id="funtzinamendua">
-        </p>
+          <div class="formuLerro">
+            <label for="data">Data:</label>
+            <input type="date" id="date" name="data" required>
+          </div>
+          <details>
 
-        <label for="arazoa">Arazoa</label>
-        <textarea name="arazoa" id="arazoa" placeholder="Xeaztu arazoa" maxlength="300"></textarea>
+            <summary>Gehigarriak</summary>
 
-        <button type="submit">DATUAK BIDALI</button>
-        <button type="reset">DATUAK EZABATU</button>
+            <div class="formuLerro">
+              <label for="funtzionamendua">Funtzinatzen jarraitzen du?</label>
+              <input type="checkbox" value="funtzionamendua" name="funtzionamendua" id="funtzionamendua">
+            </div>
 
+            <div class="formuLerro">
+              <label for="mail">E-mail</label>
+              <input type="email" name="mail" id="mail" placeholder="izena@domeinua.com" maxlength="40">
+            </div>
+            <div class="formuLerro">
+              <label for="argazkia">Argazkia</label>
+              <input type="file" name="argazkia" id="argazkia">
+            </div>
+          </details>
+
+          <label for="arazoa">Arazoa</label>
+          <textarea name="arazoa" id="arazoa" placeholder="Xeaztu arazoa" maxlength="300" required></textarea>
+
+          <div class="formuLerro">
+            <button type="submit">DATUAK BIDALI</button>
+            <button type="reset">DATUAK EZABATU</button>
+          </div>
+
+        </fieldset>
       </form>
     </section>
     <footer>
