@@ -17,6 +17,7 @@ header {
 #titulo {
   /* FLEX */
   display: flex;
+  align-items: center;
 }
 
 #titulo img {
@@ -27,16 +28,11 @@ header {
   margin: 0;
 }
 
-header nav ul {
+header nav {
   list-style: none;
   /* FLEX */
   display: flex;
   flex-wrap: wrap;
-}
-
-header nav ul li {
-  margin-right: 1rem;
-  padding: 10px;
 }
 
 header nav a {
@@ -175,7 +171,6 @@ footer {
     text-align: center;
     /* FLEX */
     flex-direction: column;
-    align-items: center;
   }
   #titulo img {
     height: 150px;
@@ -189,7 +184,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
   }
-  header nav ul {
+  header nav{
     padding: 0;
     /* FLEX */
     flex-direction: column;
