@@ -109,6 +109,8 @@ form {
 }
 
 .formuLerro {
+  margin: .5em;
+  /* FLEX */
   display: flex;
   flex-direction: column;
 }
