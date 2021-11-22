@@ -42,6 +42,7 @@ header nav a {
   color: #ffffff;
   text-align: center;
   padding: 10px;
+  width: 9em;
 }
 
 header nav a:hover {
