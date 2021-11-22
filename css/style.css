@@ -79,7 +79,8 @@ section h2 {
 section>p {
   text-align: justify;
   text-indent: 2em;
-
+  max-width: 50em;
+  margin: auto;
 }
 
 section h3 {
@@ -87,11 +88,11 @@ section h3 {
 }
 
 section iframe {
+  display: block;
+  margin: 1em auto;
   width: 600px;
   height: 450px;
   border: none;
-  display: block;
-  margin: auto;
 }
 
 /* Makinen estiloak */
@@ -154,6 +155,7 @@ form button {
   border-radius: 5px;
   color: #000000;
 }
+
 form button[type="submit"] {
   background-color: green;
 }
@@ -197,28 +199,34 @@ footer {
     /* FLEX */
     flex-direction: column;
   }
+
   #titulo img {
     height: 150px;
   }
+
   body {
     /* FLEX */
     flex-direction: row;
   }
+
   header {
     /* FLEX */
     flex-direction: column;
     justify-content: flex-start;
   }
-  header nav{
+
+  header nav {
     padding: 0;
     /* FLEX */
     flex-direction: column;
   }
+
   .formuLerro {
     /* FLEX */
     flex-direction: row;
     justify-content: space-between;
   }
+
   footer {
     text-align: right;
     /* FLEX */
