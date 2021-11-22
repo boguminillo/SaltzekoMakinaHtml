@@ -55,6 +55,10 @@ header nav a:hover {
   background-color: #2A647D;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 #egitura {
   width: 100%;
   /* FLEX */
@@ -64,17 +68,30 @@ header nav a:hover {
 
 section {
   background-color: #56CBFD;
-  padding-top: 2rem;
+  padding: 2em 1em;
   height: 100%;
 }
 
 section h2 {
   text-align: center;
-  margin-top: 0;
 }
 
-button:hover {
-  cursor: pointer;
+section>p {
+  text-align: justify;
+  text-indent: 2em;
+
+}
+
+section h3 {
+  text-align: center;
+}
+
+section iframe {
+  width: 600px;
+  height: 450px;
+  border: none;
+  display: block;
+  margin: auto;
 }
 
 /* Makinen estiloak */
