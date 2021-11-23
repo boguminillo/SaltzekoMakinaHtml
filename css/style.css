@@ -90,8 +90,8 @@ section h3 {
 section iframe {
   display: block;
   margin: 1em auto;
-  width: 600px;
-  height: 450px;
+  max-width: 600px;
+  max-height: 450px;
   border: none;
 }
 
