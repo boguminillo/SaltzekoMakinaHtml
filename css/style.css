@@ -190,6 +190,10 @@ footer {
 }
 
 .rrss {
+  text-decoration: none;
+}
+
+.rrss img {
   width: 3rem;
 }
 
