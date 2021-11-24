@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* Header */
 header {
   background-color: #0AB4FC;
   /* FLEX */
@@ -55,6 +55,7 @@ header nav a:hover {
   background-color: #2A647D;
 }
 
+/* Section */
 button:hover {
   cursor: pointer;
 }
@@ -76,6 +77,7 @@ section h2 {
   text-align: center;
 }
 
+/* Hasiera */
 section>p {
   text-align: justify;
   text-indent: 2em;
@@ -197,7 +199,9 @@ footer {
   width: 3rem;
 }
 
+/* Etzanda */
 @media (orientation: landscape) {
+  /* Header */
   #titulo {
     text-align: center;
     /* FLEX */
@@ -225,16 +229,25 @@ footer {
     flex-direction: column;
   }
 
+  /* Formularioa */
   .formuLerro {
     /* FLEX */
     flex-direction: row;
     justify-content: space-between;
   }
 
+  /* Footer */
   footer {
     text-align: right;
     /* FLEX */
     flex-direction: row;
     align-items: flex-end;
+  }
+}
+
+/* Inprimatzeko */
+@media print {
+  header, footer, .produkto button {
+    display: none;
   }
 }
